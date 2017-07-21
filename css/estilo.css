@@ -8,23 +8,25 @@ body{
 header{
   background-color: #5b7989;
   border-radius: 10px 10px 0 0;
-  padding: 10px;
-  font-family: 'dancing'
+  font-family: 'dancing';
+  color: white;
+  display: flex;
+  flex-direction: row;
 }
 header p{
+  text-shadow: 2px 2px #02010a;
+  font-size: 2em;
+  left: 2%;
+}
+.menu{
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
+.menu a{
   color: white;
-  text-shadow: 2px #02010a;
+  font-size: 2em;
 }
-header nav{
-  text-align: right;
-}
-header a{
-  color: white;
-}
-#ini a{
-  text-decoration: inherit;
-}
-
 
 #contenedor{
   background: #82c3a6;
