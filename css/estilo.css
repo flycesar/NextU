@@ -1,15 +1,15 @@
-@font-face {
-    font-family: 'dacingscript';
-    src: url('dancing-script.otf');
+@font-face{
+  font-family: 'dancing';
+  src: url('DancingScript-Regular.otf');
 }
 body{
   background-color: #02010a;
 }
 header{
   background-color: #5b7989;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   padding: 10px;
-  font-family: 'dancingscript'
+  font-family: 'dancing'
 }
 header p{
   color: white;
@@ -17,5 +17,50 @@ header p{
 }
 header nav{
   text-align: right;
-
 }
+header a{
+  color: white;
+}
+#ini a{
+  text-decoration: inherit;
+}
+
+
+#contenedor{
+  background: #82c3a6;
+  display: flex;
+}
+.prin{
+  width: 900px;
+}
+.prin img{
+  background: #82c3a6;
+  box-shadow: 2px #02010a;
+  width: 100%;
+  padding-top: 10px;
+  float: right;
+}
+
+#contenedor2{
+  background-color: #d5c75f;
+  border: 1px solid;
+  display: flex;
+}
+.sec .tre {
+  width: 900px;
+}
+.sec img{
+  width: 70%;
+  margin: 30px 0 30px 20px;
+}
+.tre img{
+  width: 70%;
+  margin: 30px 20px 30px 0;
+}
+footer{
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+}
+.contacto
