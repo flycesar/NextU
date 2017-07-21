@@ -1,6 +1,21 @@
+@font-face {
+    font-family: 'dacingscript';
+    src: url('dancing-script.otf');
+}
 body{
-  background-color: black;
+  background-color: #02010a;
 }
 header{
-  color: #5b7989;
+  background-color: #5b7989;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'dancingscript'
+}
+header p{
+  color: white;
+  text-shadow: 2px #02010a;
+}
+header nav{
+  text-align: right;
+
 }
